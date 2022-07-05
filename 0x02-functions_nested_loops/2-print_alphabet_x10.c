@@ -1,5 +1,4 @@
 #include "main.h"
-int main(void)
 
 /**
 * print_alphabetx10 -> prints the lowercase
