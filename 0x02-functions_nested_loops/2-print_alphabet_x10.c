@@ -2,6 +2,7 @@
 
 /**
 * print_alphabetx10 -> prints the lowercase
+* Return: x10 a-z
 */
 
 void print_alphabet_x10(void)
