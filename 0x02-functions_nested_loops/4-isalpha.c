@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* test_isalpha - Test the _isalpha function
+* main -> Test the _isalpha function
 * @c: Number to pass to _isalpha function
 * Return: returns 0 or 1 depending on condition
 */
