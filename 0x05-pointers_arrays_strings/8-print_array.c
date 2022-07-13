@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* print_array - prints n elements of an array of integers
-* @a: array of integers
-* @n: number of elements of the array to be pinted
+* print_array - Prints n elements of an array of integers
+* @a: Array of integers
+* @n: Number of elements of the array to be pinted
 * Return: void
 */
 
