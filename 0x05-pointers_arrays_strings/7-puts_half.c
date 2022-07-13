@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
-* puts_half -> function that prints n elements of an array of integers
-* @str
+* puts_half -> puts half function
+* @str: str parameter
 */
 
 void puts_half(char *str)
