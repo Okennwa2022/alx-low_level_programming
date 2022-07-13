@@ -1,21 +1,23 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 /**
-* puts_half -> function that prints n elements of an array of integers
-* @str
+* print_array - prints n elements of an array of integers
+* @a: array of integers
+* @n: number of elements of the array to be pinted
+* Return: void
 */
 
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int x, y, i;
+	int j;
 
-	x = strlen(str);
-	if (x % 2 == 1)
-		y = x / 2 + 1;
-	else
-		y = x / 2;
-	for (i = y; i < x; i++)
-		_putchar(str[i]);
-	_putchar('\n');
+	for (j = 0; j < n; j++)
+	{
+		printf("%d", a[j]);
+		if (j != (n - 1))
+		{
+			printf(", ");
+		}
+	}
 }
