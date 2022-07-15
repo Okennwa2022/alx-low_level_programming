@@ -18,6 +18,13 @@ if (month >= 3 && day >= 60)
 day++;
 }
 
+printf("day of the year: %d\n", day);
+printf("remaining days: %d\n", 366 - day);
+}
+else
+{
+if (month == 2 && day == 60)
+{
 printf("invalid date: %2d/%2d/%04d\n", month, day - 31, year);
 }
 else
