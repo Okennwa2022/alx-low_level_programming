@@ -1,17 +1,21 @@
-#include <stdio.h>
+#include <stdio.h>
 
-/**                                                                                                                                           
- *  main -> program that prints the alphabet in lowercase                                                                                      
- *  Return : always 0                                                                                                                          
- */          
-int main(void)                                                                                                                                
-{   
-	char ch;
-	for (ch = 'z'; ch >= 'a'; ch--)
-	{
-		putchar(ch);
-	}
-	putchar(10); /* this is an ascii code for ne line */
-	
-	return (0);
-}          
+/**
+* main -> assign a random number to the variable n each time it is executed
+* and print the last digit of the number stored in the variable n
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+char ch;
+
+for (ch = 'z'; ch >= 'a'; ch--)
+{
+
+putchar(ch);
+}
+
+putchar(10); /* this is an ascii code for new line*/
+
+return (0);
+}
