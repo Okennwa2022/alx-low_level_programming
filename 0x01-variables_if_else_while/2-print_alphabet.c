@@ -15,3 +15,4 @@ int main(void)
 	putchar(10); /* this is an ascii code for a new line */
 
 return (0);
+}
