@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* argstostr - concatenates all arguments of the program into a string
+* argstostr - concatenates all arguments of the program into a string;
+* 	      arguments are seperated by a new line in the string.
 * @ac: the number of arguments passed to the program.
 * @av: an array of pointers to the arguments.
 * Return: if ac == 0, av == Null, or the function fails - Null.
