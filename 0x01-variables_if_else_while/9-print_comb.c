@@ -1,27 +1,26 @@
 #include <stdio.h>
 
 /**
-* main -> assign a random number to the variable n each time it is executed
-* and print the lastdigit of the number stored in the variable n
+* main - a program that prints all possible combinations of single-digit numbers
+*
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int ch;
-for (ch = 48; ch <= 57; ch++)
-{
+	int num;
 
-putchar(ch);
-if (ch != 57)
-{
-putchar(44);
-putchar(32);
-{
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+		continue;
 
-putchar(10); /* this is an ascii code for new line*/
+		putchar(',');
+		putchar(' ');
+	}
 
-return (0);
-}
-}
-}
+	putchar('\n');
+
+	return (0);
 }
